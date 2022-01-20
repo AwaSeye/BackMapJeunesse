@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>/Users/hawa/IdeaProjects/BACK-MAP-JEUNESSE</OriginalElement>
+  <nodes>
+    <node x="746.0" y="0.0">io.work.MapJeunesse.Controller.RepresentantEquipeProjetController</node>
+    <node x="545.0" y="584.0">io.work.MapJeunesse.services.PartenaireProjetService</node>
+    <node x="1203.0" y="1168.0">io.work.MapJeunesse.security.response.JwtResponse</node>
+    <node x="236.0" y="876.0">io.work.MapJeunesse.Controller.EntretienController</node>
+    <node x="0.0" y="730.0">io.work.MapJeunesse.repositories.UtilisateurRepository</node>
+    <node x="288.0" y="511.0">io.work.MapJeunesse.Controller.EcoleFormationController</node>
+    <node x="232.0" y="949.0">io.work.MapJeunesse.config.RequestCorsFilter</node>
+    <node x="265.0" y="657.0">io.work.MapJeunesse.Controller.EmploiStageController</node>
+    <node x="871.0" y="438.0">io.work.MapJeunesse.repositories.EcoleFormationRepository</node>
+    <node x="738.0" y="1241.0">io.work.MapJeunesse.entity.Candidat</node>
+    <node x="944.0" y="219.0">io.work.MapJeunesse.exceptions.ExceptionHandlingController</node>
+    <node x="0.0" y="1314.0">io.work.MapJeunesse.entity.Projet</node>
+    <node x="0.0" y="146.0">io.work.MapJeunesse.services.Impl.EntreprisePartenaireServiceImpl</node>
+    <node x="614.0" y="292.0">io.work.MapJeunesse.services.Impl.PartenaireProjetServiceImpl</node>
+    <node x="941.0" y="876.0">io.work.MapJeunesse.security.response.MessageResponse</node>
+    <node x="914.0" y="949.0">io.work.MapJeunesse.services.Impl.ProjetServiceImpl</node>
+    <node x="487.0" y="803.0">io.work.MapJeunesse.services.Impl.LocaliteServiceImpl</node>
+    <node x="814.0" y="1168.0">io.work.MapJeunesse.exceptions.ValidationUtil</node>
+    <node x="892.0" y="365.0">io.work.MapJeunesse.repositories.PartenaireProjetRepository</node>
+    <node x="640.0" y="1095.0">io.work.MapJeunesse.entity.EcoleFormation</node>
+    <node x="728.0" y="803.0">io.work.MapJeunesse.repositories.EntretienRepository</node>
+    <node x="880.0" y="1022.0">io.work.MapJeunesse.services.Impl.AuthServiceImpl</node>
+    <node x="381.0" y="1241.0">io.work.MapJeunesse.services.AuthService</node>
+    <node x="0.0" y="1095.0">io.work.MapJeunesse.entity.PartenaireProjet</node>
+    <node x="969.0" y="803.0">io.work.MapJeunesse.config.WebSecurityConfig</node>
+    <node x="215.0" y="1095.0">io.work.MapJeunesse.security.service.UserDetailsImpl</node>
+    <node x="0.0" y="0.0">io.work.MapJeunesse.services.Impl.RepresentantEquipeProjetServiceImpl</node>
+    <node x="617.0" y="1168.0">io.work.MapJeunesse.security.request.LoginRequest</node>
+    <node x="998.0" y="730.0">io.work.MapJeunesse.services.EmploiStageService</node>
+    <node x="245.0" y="803.0">io.work.MapJeunesse.repositories.CandidatRepository</node>
+    <node x="815.0" y="584.0">io.work.MapJeunesse.security.service.UserDetailsServiceImpl</node>
+    <node x="1059.0" y="1095.0">io.work.MapJeunesse.security.jwt.AuthTokenFilter</node>
+    <node x="0.0" y="1241.0">io.work.MapJeunesse.utils.ApiResponse</node>
+    <node x="298.0" y="365.0">io.work.MapJeunesse.services.Impl.EcoleFormationServiceImpl</node>
+    <node x="502.0" y="730.0">io.work.MapJeunesse.services.Impl.EntretienServiceImpl</node>
+    <node x="460.0" y="949.0">io.work.MapJeunesse.Controller.LocaliteController</node>
+    <node x="225.0" y="1022.0">io.work.MapJeunesse.services.CandidatService</node>
+    <node x="527.0" y="657.0">io.work.MapJeunesse.services.Impl.UtilisateurServiceImpl</node>
+    <node x="566.0" y="1241.0">io.work.MapJeunesse.entity.Utilisateur</node>
+    <node x="251.0" y="730.0">io.work.MapJeunesse.services.Impl.CandidatServiceImpl</node>
+    <node x="274.0" y="584.0">io.work.MapJeunesse.entity.RepresentantEntreprise</node>
+    <node x="320.0" y="219.0">io.work.MapJeunesse.repositories.RepresentantEcoleRepository</node>
+    <node x="916.0" y="292.0">io.work.MapJeunesse.services.EntreprisePartenaireService</node>
+    <node x="1097.0" y="1022.0">io.work.MapJeunesse.services.EntretienService</node>
+    <node x="414.0" y="1168.0">io.work.MapJeunesse.Controller.AuthController</node>
+    <node x="444.0" y="1022.0">io.work.MapJeunesse.entity.DossierCandidat</node>
+    <node x="786.0" y="657.0">io.work.MapJeunesse.exceptions.BadRequestException</node>
+    <node x="634.0" y="219.0">io.work.MapJeunesse.exceptions.ResourceNotFoundException</node>
+    <node x="687.0" y="949.0">io.work.MapJeunesse.services.UtilisateurService</node>
+    <node x="0.0" y="876.0">io.work.MapJeunesse.Controller.CandidatController</node>
+    <node x="901.0" y="1241.0">io.work.MapJeunesse.entity.Entretien</node>
+    <node x="291.0" y="438.0">io.work.MapJeunesse.services.RepresentantEcoleService</node>
+    <node x="0.0" y="803.0">io.work.MapJeunesse.Controller.UtilisateurController</node>
+    <node x="0.0" y="292.0">io.work.MapJeunesse.Controller.RepresentantEcoleController</node>
+    <node x="308.0" y="292.0">io.work.MapJeunesse.services.Impl.DossierCandidatServiceImpl</node>
+    <node x="275.0" y="1314.0">io.work.MapJeunesse.entity.Role</node>
+    <node x="595.0" y="365.0">io.work.MapJeunesse.repositories.DossierCandidatRepository</node>
+    <node x="139.0" y="1314.0">io.work.MapJeunesse.utils.ERole</node>
+    <node x="986.0" y="146.0">io.work.MapJeunesse.services.Impl.RepresentantEcoleServiceImpl</node>
+    <node x="0.0" y="1168.0">io.work.MapJeunesse.security.request.SignupRequest</node>
+    <node x="1083.0" y="584.0">io.work.MapJeunesse.repositories.EmploiStageRepository</node>
+    <node x="571.0" y="511.0">io.work.MapJeunesse.MapJeunesseApplication</node>
+    <node x="471.0" y="876.0">io.work.MapJeunesse.entity.RepresentantEcole</node>
+    <node x="1175.0" y="876.0">io.work.MapJeunesse.repositories.LocaliteRepository</node>
+    <node x="581.0" y="438.0">io.work.MapJeunesse.entity.RepresentantEquipeProjet</node>
+    <node x="0.0" y="365.0">io.work.MapJeunesse.exceptions.CustomNotFoundException</node>
+    <node x="0.0" y="73.0">io.work.MapJeunesse.services.Impl.RepresentantEntrepriseServiceImpl</node>
+    <node x="850.0" y="1095.0">io.work.MapJeunesse.services.LocaliteService</node>
+    <node x="1140.0" y="949.0">io.work.MapJeunesse.utils.APICodeMapping</node>
+    <node x="0.0" y="438.0">io.work.MapJeunesse.Controller.DossierCandidatController</node>
+    <node x="1009.0" y="1168.0">io.work.MapJeunesse.services.ProjetService</node>
+    <node x="0.0" y="584.0">io.work.MapJeunesse.services.DossierCandidatService</node>
+    <node x="0.0" y="219.0">io.work.MapJeunesse.Controller.EntreprisePartenaireController</node>
+    <node x="1130.0" y="511.0">io.work.MapJeunesse.exceptionHandler.GlobalExceptionHandler</node>
+    <node x="358.0" y="73.0">io.work.MapJeunesse.repositories.RepresentantEntrepriseRepository</node>
+    <node x="1218.0" y="1241.0">io.work.MapJeunesse.entity.Localite</node>
+    <node x="1063.0" y="1241.0">io.work.MapJeunesse.security.jwt.JwtUtils</node>
+    <node x="751.0" y="730.0">io.work.MapJeunesse.entity.EntreprisePartenaire</node>
+    <node x="208.0" y="1168.0">io.work.MapJeunesse.repositories.RoleRepository</node>
+    <node x="706.0" y="876.0">io.work.MapJeunesse.exceptions.ExceptionMessage</node>
+    <node x="0.0" y="1022.0">io.work.MapJeunesse.exceptions.CustomException</node>
+    <node x="1044.0" y="657.0">io.work.MapJeunesse.utils.APIMessageMapping</node>
+    <node x="0.0" y="949.0">io.work.MapJeunesse.security.jwt.AuthEntryPointJwt</node>
+    <node x="708.0" y="73.0">io.work.MapJeunesse.services.RepresentantEquipeProjetService</node>
+    <node x="377.0" y="0.0">io.work.MapJeunesse.repositories.RepresentantEquipeProjetRepository</node>
+    <node x="853.0" y="511.0">io.work.MapJeunesse.services.Impl.EmploiStageServiceImpl</node>
+    <node x="334.0" y="146.0">io.work.MapJeunesse.repositories.EntreprisePartenaireRepository</node>
+    <node x="1053.0" y="73.0">io.work.MapJeunesse.Controller.RepresentantEntrepriseController</node>
+    <node x="0.0" y="511.0">io.work.MapJeunesse.Controller.PartenaireProjetController</node>
+    <node x="192.0" y="1241.0">io.work.MapJeunesse.entity.EmploiStage</node>
+    <node x="660.0" y="146.0">io.work.MapJeunesse.services.RepresentantEntrepriseService</node>
+    <node x="428.0" y="1095.0">io.work.MapJeunesse.Controller.ProjetController</node>
+    <node x="0.0" y="657.0">io.work.MapJeunesse.services.EcoleFormationService</node>
+    <node x="662.0" y="1022.0">io.work.MapJeunesse.repositories.ProjetRepository</node>
+  </nodes>
+  <notes />
+  <edges />
+  <settings layout="Hierarchic" zoom="0.4486049926578561" showDependencies="false" x="681.5" y="671.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
