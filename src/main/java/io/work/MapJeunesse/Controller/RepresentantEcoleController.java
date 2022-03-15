@@ -25,7 +25,7 @@ public class RepresentantEcoleController {
         return representantEcoleService.saveRepresentantEcole(representantEcole);
     }
 
-    @PostMapping("modifier")
+    @PutMapping
     public RepresentantEcole updateRepresentantEcole(@RequestBody RepresentantEcole representantEcole){
         return representantEcoleService.updateRepresentantEcole(representantEcole);
     }

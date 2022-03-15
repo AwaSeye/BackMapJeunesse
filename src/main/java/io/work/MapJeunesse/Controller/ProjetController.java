@@ -25,7 +25,7 @@ public class ProjetController {
         return projetService.saveProjet(projet);
     }
 
-    @PostMapping("modifier")
+    @PutMapping
     public Projet updateProjet(@RequestBody Projet projet){
         return projetService.updateProjet(projet);
     }

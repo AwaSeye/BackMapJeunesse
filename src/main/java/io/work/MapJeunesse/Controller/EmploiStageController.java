@@ -24,7 +24,7 @@ public class EmploiStageController {
         return emploiStageService.saveEmploiStage(emploiStage);
     }
 
-    @PostMapping("modifier")
+    @PutMapping
     public EmploiStage updateEmploiStage(@RequestBody EmploiStage emploiStage){
         return emploiStageService.updateEmploiStage(emploiStage);
     }

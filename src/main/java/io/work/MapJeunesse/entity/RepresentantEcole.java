@@ -16,4 +16,5 @@ public class RepresentantEcole extends Utilisateur{
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long    id;
     private String  fonction;
+
 }

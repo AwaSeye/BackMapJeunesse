@@ -24,7 +24,7 @@ public class EcoleFormationController {
         return ecoleFormationService.saveEcoleFormation(ecoleFormation);
     }
 
-    @PostMapping("modifier")
+    @PutMapping
     public EcoleFormation updateEcoleFormation(@RequestBody EcoleFormation ecoleFormation){
         return ecoleFormationService.updateEcoleFormation(ecoleFormation);
     }

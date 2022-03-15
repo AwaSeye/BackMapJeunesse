@@ -25,7 +25,7 @@ public class RepresentantEquipeProjetController {
         return representantEquipeProjetService.saveRepresentantEquipeProjet(representantEquipeProjet);
     }
 
-    @PostMapping("modifier")
+    @PutMapping
     public RepresentantEquipeProjet updateRepresentantEquipeProjet(@RequestBody RepresentantEquipeProjet representantEquipeProjet){
         return representantEquipeProjetService.updateRepresentantEquipeProjet(representantEquipeProjet);
     }

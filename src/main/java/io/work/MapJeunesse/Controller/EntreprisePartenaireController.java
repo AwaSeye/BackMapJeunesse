@@ -25,7 +25,7 @@ public class EntreprisePartenaireController {
         return entreprisePartenaireService.saveEntreprisePartenaire(entreprisePartenaire);
     }
 
-    @PostMapping("modifier")
+    @PutMapping
     public EntreprisePartenaire updateEntreprisePartenaire(@RequestBody EntreprisePartenaire entreprisePartenaire){
         return entreprisePartenaireService.updateEntreprisePartenaire(entreprisePartenaire);
     }

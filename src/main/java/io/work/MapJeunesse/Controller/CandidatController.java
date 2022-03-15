@@ -25,7 +25,7 @@ public class CandidatController {
         return candidatService.saveCandidat(candidat);
     }
 
-    @PostMapping("modifier")
+    @PutMapping
     public Candidat updateCandidat(@RequestBody Candidat candidat){
         return candidatService.updateCandidat(candidat);
     }

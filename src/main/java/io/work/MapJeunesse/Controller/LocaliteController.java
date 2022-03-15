@@ -25,7 +25,7 @@ public class LocaliteController {
         return localiteService.saveLocalite(localite);
     }
 
-    @PostMapping("modifier")
+    @PutMapping
     public Localite updateLocalite(@RequestBody Localite localite){
         return localiteService.updateLocalite(localite);
     }

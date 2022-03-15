@@ -25,7 +25,7 @@ public class EntretienController {
         return entretienService.saveEntretien(entretien);
     }
 
-    @PostMapping("modifier")
+    @PutMapping
     public Entretien updateEntretien(@RequestBody Entretien entretien){
         return entretienService.updateEntretien(entretien);
     }

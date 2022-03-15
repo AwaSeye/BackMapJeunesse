@@ -24,7 +24,7 @@ public class PartenaireProjetController {
         return partenaireProjetService.savePartenaireProjet(partenaireProjet);
     }
 
-    @PostMapping("modifier")
+    @PutMapping
     public PartenaireProjet updatePartenaireProjet(@RequestBody PartenaireProjet partenaireProjet){
         return partenaireProjetService.updatePartenaireProjet(partenaireProjet);
     }

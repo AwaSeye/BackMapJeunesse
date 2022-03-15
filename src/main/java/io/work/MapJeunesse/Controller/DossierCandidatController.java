@@ -24,7 +24,7 @@ public class DossierCandidatController {
         return dossierCandidatService.saveDossierCandidat(dossierCandidat);
     }
 
-    @PostMapping("modifier")
+    @PutMapping
     public DossierCandidat updateDossierCandidat(@RequestBody DossierCandidat dossierCandidat){
         return dossierCandidatService.updateDossierCandidat(dossierCandidat);
     }

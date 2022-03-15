@@ -25,7 +25,7 @@ public class UtilisateurController {
         return utilisateurService.saveUtilisateur(utilisateur);
     }
 
-    @PostMapping("modifier")
+    @PutMapping
     public Utilisateur updateUtilisateur(@RequestBody Utilisateur utilisateur){
         return utilisateurService.updateUtilisateur(utilisateur);
     }

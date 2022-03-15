@@ -25,7 +25,7 @@ public class RepresentantEntrepriseController {
         return representantEntrepriseService.saveRepresentantEntreprise(representantEntreprise);
     }
 
-    @PostMapping("modifier")
+    @PutMapping
     public RepresentantEntreprise updateRepresentantEntreprise(@RequestBody RepresentantEntreprise representantEntreprise){
         return representantEntrepriseService.updateRepresentantEntreprise(representantEntreprise);
     }
