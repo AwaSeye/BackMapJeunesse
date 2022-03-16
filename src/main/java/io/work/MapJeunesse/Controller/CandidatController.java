@@ -10,6 +10,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/candidat")
+
 public class CandidatController {
     @Autowired
     private CandidatService candidatService;
