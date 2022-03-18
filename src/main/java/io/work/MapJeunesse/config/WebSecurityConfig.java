@@ -1,6 +1,9 @@
 package io.work.MapJeunesse.config;
 
 
+import io.swagger.v3.oas.annotations.enums.SecuritySchemeIn;
+import io.swagger.v3.oas.annotations.enums.SecuritySchemeType;
+import io.swagger.v3.oas.annotations.security.SecurityScheme;
 import io.work.MapJeunesse.security.jwt.AuthEntryPointJwt;
 import io.work.MapJeunesse.security.jwt.AuthTokenFilter;
 import io.work.MapJeunesse.security.service.UserDetailsServiceImpl;
@@ -20,6 +23,7 @@ import org.springframework.security.web.authentication.UsernamePasswordAuthentic
 
 @Configuration
 @EnableWebSecurity
+@SecurityScheme(name="mapJeunesse", scheme="bearer", bearerFormat = "JWT", description = "JWT token", type= SecuritySchemeType.HTTP, in= SecuritySchemeIn.HEADER)
 @EnableGlobalMethodSecurity(
         prePostEnabled = true)
 public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
