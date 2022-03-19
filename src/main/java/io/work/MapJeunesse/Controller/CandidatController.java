@@ -23,7 +23,7 @@ public class CandidatController {
         return candidatService.getAllCandidat();
     }
 
-    @PostMapping
+    @PostMapping(consumes = {"application/json"})
     public Candidat saveCandidat(@RequestBody Candidat candidat){
         return candidatService.saveCandidat(candidat);
     }

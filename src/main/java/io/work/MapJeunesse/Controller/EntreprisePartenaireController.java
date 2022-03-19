@@ -22,7 +22,7 @@ public class EntreprisePartenaireController {
         return entreprisePartenaireService.getAllEntreprisePartenaire();
     }
 
-    @PostMapping
+    @PostMapping(consumes = {"application/json"})
     public EntreprisePartenaire saveEntreprisePartenaire(@RequestBody EntreprisePartenaire entreprisePartenaire){
         return entreprisePartenaireService.saveEntreprisePartenaire(entreprisePartenaire);
     }

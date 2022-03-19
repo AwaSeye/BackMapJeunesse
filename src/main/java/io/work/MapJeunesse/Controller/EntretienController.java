@@ -22,7 +22,7 @@ public class EntretienController {
         return entretienService.getAllEntretien();
     }
 
-    @PostMapping
+    @PostMapping(consumes = {"application/json"})
     public Entretien saveEntretien(@RequestBody Entretien entretien){
         return entretienService.saveEntretien(entretien);
     }

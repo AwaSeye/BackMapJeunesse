@@ -21,7 +21,7 @@ public class EcoleFormationController {
         return ecoleFormationService.getAllEcoleFormation();
     }
 
-    @PostMapping
+    @PostMapping(consumes = {"application/json"})
     public EcoleFormation saveEcoleFormation(@RequestBody EcoleFormation ecoleFormation){
         return ecoleFormationService.saveEcoleFormation(ecoleFormation);
     }

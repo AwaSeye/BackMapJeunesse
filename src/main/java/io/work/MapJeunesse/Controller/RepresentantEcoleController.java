@@ -22,7 +22,7 @@ public class RepresentantEcoleController {
         return representantEcoleService.getAllRepresentantEcole();
     }
 
-    @PostMapping
+    @PostMapping(consumes = {"application/json"})
     public RepresentantEcole saveRepresentantEcole(@RequestBody RepresentantEcole representantEcole){
         return representantEcoleService.saveRepresentantEcole(representantEcole);
     }

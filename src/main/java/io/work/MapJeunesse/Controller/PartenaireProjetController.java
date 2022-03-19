@@ -21,7 +21,7 @@ public class PartenaireProjetController {
         return partenaireProjetService.getAllPartenaireProjet();
     }
 
-    @PostMapping
+    @PostMapping(consumes = {"application/json"})
     public PartenaireProjet savePartenaireProjet(@RequestBody PartenaireProjet partenaireProjet){
         return partenaireProjetService.savePartenaireProjet(partenaireProjet);
     }

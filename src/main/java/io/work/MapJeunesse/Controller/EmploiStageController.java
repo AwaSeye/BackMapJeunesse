@@ -21,7 +21,7 @@ public class EmploiStageController {
         return emploiStageService.getAllEmploiStage();
     }
 
-    @PostMapping
+    @PostMapping(consumes = {"application/json"})
     public EmploiStage saveEmploiStage(@RequestBody EmploiStage emploiStage){
         return emploiStageService.saveEmploiStage(emploiStage);
     }

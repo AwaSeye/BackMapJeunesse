@@ -22,7 +22,7 @@ public class UtilisateurController {
         return utilisateurService.getAllUtilisateur();
     }
 
-    @PostMapping
+    @PostMapping(consumes = {"application/json"})
     public Utilisateur saveUtilisateur(@RequestBody Utilisateur utilisateur){
         return utilisateurService.saveUtilisateur(utilisateur);
     }

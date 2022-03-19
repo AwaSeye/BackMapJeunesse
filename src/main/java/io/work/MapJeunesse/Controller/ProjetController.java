@@ -22,7 +22,7 @@ public class ProjetController {
         return projetService.getAllProjet();
     }
 
-    @PostMapping
+    @PostMapping(consumes = {"application/json"})
     public Projet saveProjet(@RequestBody Projet projet){
         return projetService.saveProjet(projet);
     }

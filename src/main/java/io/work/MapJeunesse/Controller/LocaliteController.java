@@ -22,7 +22,7 @@ public class LocaliteController {
         return localiteService.getAllLocalite();
     }
 
-    @PostMapping
+    @PostMapping(consumes = {"application/json"})
     public Localite saveLocalite(@RequestBody Localite localite){
         return localiteService.saveLocalite(localite);
     }

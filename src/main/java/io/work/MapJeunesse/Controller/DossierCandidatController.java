@@ -21,7 +21,7 @@ public class DossierCandidatController {
         return dossierCandidatService.getAllDossierCandidat();
     }
 
-    @PostMapping
+    @PostMapping(consumes = {"application/json"})
     public DossierCandidat saveDossierCandidat(@RequestBody DossierCandidat dossierCandidat){
         return dossierCandidatService.saveDossierCandidat(dossierCandidat);
     }
