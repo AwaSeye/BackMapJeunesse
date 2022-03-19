@@ -1,5 +1,6 @@
 package io.work.MapJeunesse.Controller;
 
+import io.swagger.v3.oas.annotations.security.SecurityRequirement;
 import io.work.MapJeunesse.entity.RepresentantEntreprise;
 import io.work.MapJeunesse.services.RepresentantEntrepriseService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -9,6 +10,7 @@ import java.util.List;
 
 
 @RestController
+@SecurityRequirement(name="mapJeunesse")
 @RequestMapping("/api/representantEntreprise")
 public class RepresentantEntrepriseController {
     @Autowired
