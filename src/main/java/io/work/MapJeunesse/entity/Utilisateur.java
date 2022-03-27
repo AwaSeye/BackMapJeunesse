@@ -4,6 +4,7 @@ import lombok.*;
 
 import javax.persistence.*;
 import java.io.Serializable;
+import java.util.Date;
 import java.util.HashSet;
 import java.util.Set;
 
@@ -20,11 +21,16 @@ public class Utilisateur implements Serializable {
     private Long    id;
     private String  nom;
     private String  prenom;
+    private String  age;
+    private String  adresse;
+    private String  adresseActuelle;
+    private String  region;
     private String  username;
     private String  password;
     private String  email;
     private String  sexe;
     private String  telephone;
+    private Date dateInscription;
 
     @OneToMany
     private Set<Role> roles = new HashSet<>();
