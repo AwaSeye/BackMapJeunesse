@@ -8,6 +8,7 @@ import lombok.Setter;
 import javax.validation.constraints.Email;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.Size;
+import java.util.Date;
 import java.util.Set;
 
 @Getter
@@ -26,6 +27,13 @@ public class SignupRequest {
     private String nom;
 
     private String prenom;
+    private String age;
+    private String adresse;
+    private String adresseActuelle;
+    private String region;
+    private String sexe;
+    private Date dateInscription;
+    private String telephone;
 
     private Set<String> role;
 
