@@ -88,14 +88,14 @@ public class AuthServiceImpl implements AuthService {
                 .nom(signupRequest.getNom())
                 .prenom(signupRequest.getPrenom())
                 .age(signupRequest.getAge())
-                .adresse(signupRequest.getAdresse())
-                .adresseActuelle(signupRequest.getAdresseActuelle())
                 .sexe(signupRequest.getSexe())
-                .region(signupRequest.getRegion())
+                .adresse(signupRequest.getAdresse())
                 .telephone(signupRequest.getTelephone())
+                .region(signupRequest.getRegion())
                 .dateInscription(signupRequest.getDateInscription())
-                .username(signupRequest.getUsername())
+                .adresseActuelle(signupRequest.getAdresseActuelle())
                 .email(signupRequest.getEmail())
+                .username(signupRequest.getUsername())
                 .password(encoder.encode(signupRequest.getPassword()))
                 .build();
 
