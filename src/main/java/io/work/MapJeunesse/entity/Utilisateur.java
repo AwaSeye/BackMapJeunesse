@@ -32,6 +32,6 @@ public class Utilisateur implements Serializable {
     private String  telephone;
     private Date dateInscription;
 
-    @OneToMany
+    @ManyToMany
     private Set<Role> roles = new HashSet<>();
 }
