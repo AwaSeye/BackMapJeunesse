@@ -8,5 +8,5 @@ import java.util.List;
 public interface DossierCandidatRepository extends JpaRepository<DossierCandidat, Long> {
     public List<DossierCandidat> findByCv(String cv);
     public List<DossierCandidat> findByLettreMotivation(String lettreMotivation);
-    public List<DossierCandidat> findByDiplome(String diplome);
+    public List<DossierCandidat> findByPoste(String poste);
 }
