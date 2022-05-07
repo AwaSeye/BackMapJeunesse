@@ -21,7 +21,6 @@ public class DossierCandidat implements Serializable {
     private String cv;
     private String lettreMotivation;
     private String domaine;
-    private String niveau;
     private String profession;
     private String region;
 
