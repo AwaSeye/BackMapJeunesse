@@ -10,7 +10,7 @@ import java.util.List;
 
 @RestController
 @SecurityRequirement(name="mapJeunesse")
-@RequestMapping("/api/dossier")
+@RequestMapping("/api/demandeEmploiStage")
 public class DossierCandidatController {
     @Autowired
     private DossierCandidatService dossierCandidatService;

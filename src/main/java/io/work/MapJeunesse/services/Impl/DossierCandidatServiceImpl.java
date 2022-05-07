@@ -30,14 +30,14 @@ public class DossierCandidatServiceImpl implements DossierCandidatService {
                 .map(article1 -> {
                     return dossierCandidatRepository.saveAndFlush(dossierCandidat);
                 })
-                .orElseThrow(()-> new ResourceNotFoundException("Ce dossier n'existe pas"));
+                .orElseThrow(()-> new ResourceNotFoundException("Cette demande n'existe pas"));
     }
 
     @Override
     public void deleteDossierCandidat(Long id) {
 
         dossierCandidatRepository.findById(id)
-                .orElseThrow(()-> new ResourceNotFoundException("Ce dossier n'existe pas"));
+                .orElseThrow(()-> new ResourceNotFoundException("Cette demande n'existe pas"));
         dossierCandidatRepository.deleteById(id);
     }
 }
