@@ -9,7 +9,7 @@ import java.util.List;
 public interface ProjetRepository extends JpaRepository<Projet, Long>
 {
     public List<Projet> findByDomaineActivite(String domaineActivite);
-    public List<Projet> findByTitre(String titre);
+    public List<Projet> findByIntitule(String intitule);
     public List<Projet> findByContenu(String contenu);
-    public List<Projet> findByDateDepot(Date dateDepot);
+    public List<Projet> findByRegion(Date region);
 }

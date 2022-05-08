@@ -19,8 +19,8 @@ public class Projet implements Serializable {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
     private String domaineActivite;
-    private String titre;
+    private String intitule;
     private String contenu;
-    private Date dateDepot;
+    private String region;
 
 }
