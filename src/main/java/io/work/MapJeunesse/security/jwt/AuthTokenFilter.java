@@ -1,4 +1,4 @@
-/*package io.work.MapJeunesse.security.jwt;
+package io.work.MapJeunesse.security.jwt;
 
 import io.work.MapJeunesse.security.service.UserDetailsServiceImpl;
 import org.slf4j.Logger;
@@ -58,4 +58,3 @@ public class AuthTokenFilter extends OncePerRequestFilter {
         return null;
     }
 }
-*/

@@ -1,4 +1,4 @@
-/*package io.work.MapJeunesse.config;
+package io.work.MapJeunesse.config;
 
 
 import io.swagger.v3.oas.annotations.enums.SecuritySchemeIn;
@@ -79,4 +79,3 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
         http.addFilterBefore(authenticationJwtTokenFilter(), UsernamePasswordAuthenticationFilter.class);
     }
 }
-*/

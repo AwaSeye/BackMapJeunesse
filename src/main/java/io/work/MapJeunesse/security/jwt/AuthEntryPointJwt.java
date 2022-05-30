@@ -1,4 +1,4 @@
-/*package io.work.MapJeunesse.security.jwt;
+package io.work.MapJeunesse.security.jwt;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -20,4 +20,4 @@ public class AuthEntryPointJwt implements AuthenticationEntryPoint {
         logger.error("Unauthorized error: {}", authException.getMessage());
         response.sendError(HttpServletResponse.SC_UNAUTHORIZED, "Error: Unauthorized");
     }
-}*/
+}
