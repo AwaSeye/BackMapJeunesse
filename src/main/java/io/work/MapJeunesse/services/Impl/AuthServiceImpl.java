@@ -1,10 +1,10 @@
-package io.work.MapJeunesse.services.Impl;
+/*package io.work.MapJeunesse.services.Impl;
 
 import io.work.MapJeunesse.entity.Role;
 import io.work.MapJeunesse.entity.Utilisateur;
 import io.work.MapJeunesse.repositories.RoleRepository;
 import io.work.MapJeunesse.repositories.UtilisateurRepository;
-import io.work.MapJeunesse.security.jwt.JwtUtils;
+
 import io.work.MapJeunesse.security.request.LoginRequest;
 import io.work.MapJeunesse.security.request.SignupRequest;
 import io.work.MapJeunesse.security.response.JwtResponse;
@@ -29,14 +29,7 @@ import java.util.stream.Collectors;
 @Service
 public class AuthServiceImpl implements AuthService {
 
-    @Autowired
-    AuthenticationManager authenticationManager;
 
-    @Autowired
-    PasswordEncoder encoder;
-
-    @Autowired
-    JwtUtils jwtUtils;
 
     final private UtilisateurRepository utilisateurRepository;
 
@@ -48,25 +41,7 @@ public class AuthServiceImpl implements AuthService {
         this.roleRepository = roleRepository;
     }
 
-    @Override
-    public ResponseEntity<?> authenticateUser(LoginRequest loginRequest) {
-        Authentication authentication = authenticationManager.authenticate(
-                new UsernamePasswordAuthenticationToken(loginRequest.getUsername(), loginRequest.getPassword()));
 
-        SecurityContextHolder.getContext().setAuthentication(authentication);
-        String jwt = jwtUtils.generateJwtToken(authentication);
-
-        UserDetailsImpl userDetails = (UserDetailsImpl) authentication.getPrincipal();
-        List<String> roles = userDetails.getAuthorities().stream()
-                .map(item -> item.getAuthority())
-                .collect(Collectors.toList());
-
-        return ResponseEntity.ok(new JwtResponse(jwt,
-                userDetails.getId(),
-                userDetails.getUsername(),
-                userDetails.getEmail(),
-                roles));
-    }
 
     @Override
     public ResponseEntity<?> registerUser(SignupRequest signupRequest) {
@@ -96,7 +71,6 @@ public class AuthServiceImpl implements AuthService {
                 .adresseActuelle(signupRequest.getAdresseActuelle())
                 .email(signupRequest.getEmail())
                 .username(signupRequest.getUsername())
-                .password(encoder.encode(signupRequest.getPassword()))
                 .build();
 
         Set<String> strRoles = signupRequest.getRole();
@@ -128,4 +102,4 @@ public class AuthServiceImpl implements AuthService {
 
         return ResponseEntity.ok(new MessageResponse("User registered successfully!"));
     }
-}
+}*/
