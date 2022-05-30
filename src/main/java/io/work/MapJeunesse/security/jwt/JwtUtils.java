@@ -1,4 +1,4 @@
-package io.work.MapJeunesse.security.jwt;
+/*package io.work.MapJeunesse.security.jwt;
 
 import io.jsonwebtoken.*;
 import io.work.MapJeunesse.security.service.UserDetailsImpl;
@@ -55,5 +55,5 @@ public class JwtUtils {
 
         return false;
     }
-}
+}*/
 
